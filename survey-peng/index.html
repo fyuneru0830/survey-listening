@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>词汇量测试</title><meta name="viewport" content="width=device-width"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="question.json.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://unpkg.com/survey-vue@1.8.51/survey.vue.min.js"></script>
+        <link href="https://unpkg.com/survey-core@1.8.51/modern.min.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./index.css"></head>
+        <meta charset="utf-8"/>
+         <!-- 调查问卷和测试题的主程序显示用 -->
+        <div id="surveyElement" style="display:inline-block;width:100%;">
+            <survey :survey='survey'/>
+        </div>
+        <!-- 显示结果 -->
+        <div id="surveyResult"></div>
+        <!-- 加载vuejs的文件 -->
+        <script type="text/javascript" src="./index.js"></script>
+         
+ 
+    </body>
+    
+</html>
